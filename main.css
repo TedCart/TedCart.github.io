@@ -19,6 +19,7 @@ button:hover {
 header, footer {
   background: #005;
   color: #DDD;
+  margin: 0 0 10px;
 }
 
 h1 {
