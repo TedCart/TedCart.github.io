@@ -14,7 +14,8 @@
     </header>
     <body class="container">
       <div class="container">
-        <div class="col-md-3">
+        <div class="col-md-3" style="position: relative;">
+          <img src="Basic Professional Profile Pic.jpg" alt="It's Ted!">
           <h2> About Me </h2>
           <p> I'm an aspiring Web Developer with a real passion for solving complex problems in intricate involved ways. I like the work, I like the people, and I like who I am when I do it. The entire culture is supportive and friendly. I engage with this work more intensely than anything else.</p>
           <h2> Skills </h2>
@@ -34,22 +35,38 @@
           </p>
         </div>
         <div class="col-md-9">
-          <h2> Projects </h2>
-          <div>
-            <h5>Tic-Tac-Toe</h5>
-            <p>My first application. Play TicTacToe with user authentication and running game statistics.
-            <br>Front-end built with JavaScript and jQuery, SASS, and Bootstrap.
-            <br>Interfaces with pre-built Ruby on Rails API back-end.</p>
-            <p><a href="https://github.com/TedCart/TicTacToe">GitHub Repo</a></p>
-            <p><a href="https://TedCart.github.io/TicTacToe">Deployed Project</a></p>
-          </div>
-          <div>
-            <h5>Boggle</h5>
-            <p>Constructed a working Boggle game, complete with a timer, a CPU opponent, and a review mode of prior games.
-            <br>Front-end built with JavaSript, jQuery, Node, Bootstrap, SASS, elbow grease, patience.
-            <br>Back-end built with Ruby on Rails.</p>
-            <p><a href="https://TedCart.github.io/Boggle-Riff">GitHub Repo</a></p>
-            <p><a href="https://TedCart.github.io/Boggle-Riff">Deployed Project</a></p>
+          <div class="container">
+            <h2> Projects </h2>
+            <div class="row">
+              <div class="col-md-4">
+                <h3>Tic-Tac-Toe</h3>
+                <p>My first application. Play TicTacToe with user authentication and running game statistics. Also added some flavor text in the sub-headers. Don't click the same square too many times unless you want the game to get annoyed and tell you about it.
+                Front-end built with JavaScript and jQuery, SASS, and Bootstrap.
+                Interfaces with pre-built Ruby on Rails API back-end.</p>
+                <p>
+                  <form style="display: inline" action="https://github.com/TedCart/TicTacToe" method="get">
+                    <button>GitHub Repo</button>
+                  </form>
+                  <form style="display: inline" action="https://TedCart.github.io/TicTacToe" method="get">
+                    <button>Deployed Project</button>
+                  </form>
+                </p>
+              </div>
+              <div class="col-md-5">
+                <h3>Boggle</h3>
+                <p>I made Boggle! Complete with a timer, a CPU opponent, and a review mode of prior games. I loved the challenge of iterating through a grid of letters to find all the words and this game is the result. I'm especially proud that refreshing the page won't lose your game and that the letters light up.
+                Front-end built with JavaSript, jQuery, Node, Bootstrap, SASS, elbow grease, and patience.
+                Back-end built with Ruby on Rails.</p>
+                <p>
+                  <form style="display: inline" action="https://github.com/TedCart/Boggle-Riff" method="get">
+                    <button>GitHub Repo</button>
+                  </form>
+                  <form style="display: inline" action="https://TedCart.github.io/Boggle-Riff" method="get">
+                    <button>Deployed Project</button>
+                  </form>
+                </p>
+              </div>
+            </div>
           </div>
           <!-- <h2> Resume </h2>
           <p>Lorem ipsum</p> -->
