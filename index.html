@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <title>You Have Arrived.</title>
+      <title>Ted Cart's Portfolio</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -9,7 +9,7 @@
       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script src="index.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
-    <header class="container">
+    <header class="container" style="border-radius: 6px;">
       <h1>Welcome to Ted Cart's Portfolio</h1>
     </header>
     <body class="container">
@@ -17,14 +17,15 @@
         <div class="col-md-3" style="position: relative;">
           <img src="Basic Professional Profile Pic.jpg" alt="It's Ted!">
           <h2> About Me </h2>
-          <p> I'm an aspiring Web Developer with a real passion for solving complex problems in intricate involved ways. I like the work, I like the people, and I like who I am when I do it. The entire culture is supportive and friendly. I engage with this work more intensely than anything else.</p>
+          <p> I'm a Full-Stack Web Developer with a real passion for solving complex problems in intricate involved ways. I like the work, I like the people, and I like who I am when I do it. The entire culture is supportive and friendly. I engage with this work more intensely than anything else.</p>
           <h2> Skills </h2>
           <p>HTML <br>
-            CSS <br>
+            CSS + SASS<br>
             Javascript <br>
             jQuery <br>
             AJAX <br>
-            Ruby on Rails <br>
+            Ruby-on-Rails <br>
+            Ember<br>
             .NET Framework<br>
             Applescript<br>
           </p>
@@ -40,30 +41,50 @@
             <div class="row">
               <div class="col-md-4">
                 <h3>Tic-Tac-Toe</h3>
-                <p>My first application. Play TicTacToe with user authentication and running game statistics. Also added some flavor text in the sub-headers. Don't click the same square too many times unless you want the game to get annoyed and tell you about it.
-                Front-end built with JavaScript and jQuery, SASS, and Bootstrap.
-                Interfaces with pre-built Ruby on Rails API back-end.</p>
+                <h5>My First Application</h5>
+                <p>Play TicTacToe complete with user authentication. Also added some flavor text in the sub-headers. Don't click the same square too many times unless you want the game to get annoyed and tell you about it.<br>
+                <b>Front-end</b>: JavaScript, jQuery, SASS, and Bootstrap.<br>
+                <b>Back-end</b>: Pre-built Ruby-on-Rails API</p>
                 <p>
-                  <form style="display: inline" action="https://github.com/TedCart/TicTacToe" method="get">
-                    <button>GitHub Repo</button>
-                  </form>
-                  <form style="display: inline" action="https://TedCart.github.io/TicTacToe" method="get">
-                    <button>Deployed Project</button>
-                  </form>
+                  <button style="display: inline"><a href="https://github.com/TedCart/TicTacToe" target="_blank">GitHub Repo</a></button>
+                  <button style="display: inline"><a href="https://TedCart.github.io/TicTacToe" target="_blank">Deployed Project</a></button>
                 </p>
               </div>
               <div class="col-md-5">
                 <h3>Boggle</h3>
-                <p>I made Boggle! Complete with a timer, a CPU opponent, and a review mode of prior games. I loved the challenge of iterating through a grid of letters to find all the words and this game is the result. I'm especially proud that refreshing the page won't lose your game and that the letters light up.
-                Front-end built with JavaSript, jQuery, Node, Bootstrap, SASS, elbow grease, and patience.
-                Back-end built with Ruby on Rails.</p>
+                <h5>A Real Headscratcher</h5>
+                <p>Complete with a timer, a CPU opponent, and a review mode of prior games. I loved the challenge of iterating through a grid of letters to find all the words and this game is the result. I'm especially proud that refreshing the page won't lose your game and that the letters light up.<br>
+                <b>Front-end</b> JavaScript, jQuery, Node, Bootstrap, SASS, elbow grease, and patience.<br>
+                <b>Back-end</b> Ruby-on-Rails.</p>
                 <p>
-                  <form style="display: inline" action="https://github.com/TedCart/Boggle-Riff" method="get">
-                    <button>GitHub Repo</button>
-                  </form>
-                  <form style="display: inline" action="https://TedCart.github.io/Boggle-Riff" method="get">
-                    <button>Deployed Project</button>
-                  </form>
+                  <button style="display: inline"><a href="https://github.com/TedCart/Boggle-Riff" target="_blank">GitHub Repo</a></button>
+                  <button style="display: inline"><a href="https://TedCart.github.io/Boggle-Riff" target="_blank">Deployed Project</a></button>
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <h3>BitStash</h3>
+                <h5>My First Group Project</h5>
+                <p>A dropbox-like application using S3 buckets. Mainly proof of concept (File-size limit: 10 MiB).<br>
+                  <b>Front-end</b>: JavaScript, Node, jQuery, Bootstrap<br>
+                  <b>Back-end</b>: Express API (w/ Node)<br>
+                  <b>3rd Party API</b>: Amazon Cloud Services (S3 Bucket)
+                </p>
+                <p>
+                  <button style="display: inline"><a href="https://github.com/alkazams-shark-assassins/bitstash-client/" target="_blank">GitHub Repo</a></button>
+                  <button style="display: inline"><a href="https://alkazams-shark-assassins.github.io/bitstash-client/" target="_blank">Deployed Project</a></button>
+                </p>
+              </div>
+              <div class="col-md-5">
+                <h3>Bonnaroo Decoder</h3>
+                <h5>My First Paid Project</h5>
+                <p>A basic substitution cypher for encoding and decoding messages hidden in Bonnaroo marketing material (circa May 2018)<br>
+                  <b>Front-end</b>: JavaScript, Node, jQuery, Bootstrap<br>
+                </p>
+                <p>
+                  <button style="display: inline"><a href="https://github.com/TedCart/roo-translate" target="_blank">GitHub Repo</a></button>
+                  <button style="display: inline"><a href="https://tedcart.github.io/roo-translate/" target="_blank">Deployed Project</a></button>
                 </p>
               </div>
             </div>
@@ -73,7 +94,7 @@
         </div>
       </div>
     </body>
-    <footer class="container">
+    <footer class="container" style="border-radius: 6px;">
       <p>This has been a Ted Cart Production</p>
     </footer>
 </html>
