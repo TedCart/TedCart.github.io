@@ -11,7 +11,7 @@ header .img-text{
 }
 
 .about p {
-  font-size: 20px
+  font-size: 20px;
 }
 
 .parallax-container {
@@ -39,8 +39,13 @@ header .img-text{
   -webkit-flex-flow: row wrap;
   justify-content: flex-start;
 }
+.head-3{
+  color: #222;
+}
+
 .item {
-  background: #1C3D60;
+  /* background: #1C3D60; */
+  background: #033359;
   padding: 4px 12px 4px 12px;
   line-height: 50px;
   color: white;
@@ -48,7 +53,7 @@ header .img-text{
   font-size: 23px;
   text-align: center;
   margin: 20px 20px 0 0;
-  border-radius: 25px 3px;
+  border-radius: 14px;
 }
 .coding-tag {
   font-size: 14px;
@@ -112,13 +117,15 @@ footer, nav {
 }
 
 .about {
-  background: #104F55;
+  /* background: #104F55; */
+  background: #033359;
   color: #EDF2F2;
 }
 
 .skills {
-  background: #83ADAF;
-    color: #EDF2F2;
+  /* background: #83ADAF; */
+  background: #FAF7F0;
+  color: #EDF2F2;
 }
 
 .portfolio {
